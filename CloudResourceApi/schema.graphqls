@@ -1,0 +1,14 @@
+schema {
+  query: Query
+}
+
+type Query {
+  server: Server!
+}
+
+type Server {
+  id: Int!
+  name: String!
+  operatingSystem: String!
+  status: String!
+}
